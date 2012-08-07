@@ -4,7 +4,7 @@ some examples from the web site along with some modifications
 
 ## new/modified code
 
-```github_hook.nut``` turns on the LED for 5 seconds when an HTTP POST happens. Works well with Github service hooks.
+```github_hook.nut``` turns on the LED for 10 seconds when an HTTP POST happens. Works well with Github service hooks.
 
   * Add an HTTP in node to your planner
   * grab the POST url

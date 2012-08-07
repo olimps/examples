@@ -246,8 +246,8 @@ class LedInput extends InputPort
         led.setLevels(0,0,100);
 
         // sleep 5 seconds and turn off
-        server.show("Ping! Sleeping 5...");
-        imp.sleep(5);
+        server.show("Ping! Sleeping 10...");
+        imp.sleep(10);
         server.show("Clearing LED");
         led.setLevels(0,0,0);
 
