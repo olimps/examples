@@ -250,7 +250,7 @@ class LedInput extends InputPort
         server.show("Clearing LED");
         led.setLevels(0,0,0);
 
-        serer.show("IDLE");
+        server.show("IDLE");
     }
 }
  
